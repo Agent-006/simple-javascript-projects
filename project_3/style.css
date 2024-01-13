@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Gilroy;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) .3s;
+    mix-blend-mode: difference;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#main h1{
+    font-size: 6vw;
+    font-weight: 700;
+}
